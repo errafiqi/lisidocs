@@ -1,0 +1,313 @@
+body{
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.pad{
+	padding:0;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+/********************navbar1**********************/
+.navbar1{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height: auto;
+	z-index:0;
+	position:fixed;
+	background-color: black;
+}
+form.chercher{
+	width:100%;
+	height: 100%;
+	padding: 5px;
+	margin:auto;
+}	input.chercher{
+		width:50%;
+		display: inline;
+		height: 50%;
+		padding:3px;
+		transform: translateY(80%);
+		border-radius:5px;
+		font-weight: bold;
+		color:black;
+	}	button.chercher{
+			width: 7%;
+			padding: 2.8px;
+			transform: translateY(86%);
+			border:1px solid ;
+			border-radius: 5px;
+			color:white;
+			background-color:#d1242e;
+		}
+a.cpt{
+	color:white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	padding:25px 15px;
+	float:left;
+}	a.cpt:hover{
+		background-color: rgba(255,255,255,0.5);
+	}	ul.cpt{
+			margin:auto;
+			padding: 0px;
+			list-style: none;
+			float:right;
+			margin-right: -15px;
+		}	ul.cpt li{
+				color:white;
+				float: left;
+				border-left: 1px solid white;
+				background-color: rgba(255,255,255,0.2);
+			}	ul.cpt li.cpt:hover{
+					background-color: rgba(255,255,255,0.5);
+				}	li.cpt1{
+						padding:25px 15px;
+					}	li.cpt{
+							display:none;
+						}	li.cpt a{
+								display:block;
+								padding:25px 15px;
+								color:white;
+							}
+/********************navCorps**********************/
+.navCorps{
+	width:80%;
+	margin: 0px;
+	padding: 0px;
+	z-index: 0;
+	float:left;
+}
+.nav{
+	margin:0px;
+	padding:0px;
+	display: block;
+	width:80%;
+	position: fixed;
+	border-top:1px solid black;
+}	div.list{
+		float:left;
+		margin:0px;
+		padding: 0px;
+		width:20%;
+		background-color: #d1242e;
+	}	div.list a{
+			display: block;
+			width:100%;
+			color:white;
+			text-align:center;
+		}	div.list a h4{
+				border-left: 1px solid black;
+				font-size: bold;
+			}
+		div.list ul{
+			display: none;
+			width:100%;
+			position: absolute;
+			padding: 0px;
+			margin: 0px;
+			list-style: none;
+			background: url("images/bgNavbar.png") center center;
+			background-size: cover;
+		}	div.list ul li{
+				width:100%;
+				padding-left: 10px;
+				padding-right: 10px;
+				margin: 0px;
+				text-align: center;
+			}	div.list ul li a{
+					display: block;
+					width:100%;
+					padding: 10px;
+					margin: 0px;
+					color: white;
+					border-bottom: 1px solid black;
+					font-size: bold;
+				}
+.corps{
+	margin:0px;
+	padding:15px;
+	width:100%;
+	height:100%;
+	z-index:-1;
+	position: relative;
+	background-color:#e1e5e4 ;
+}
+/********************inboxCal*********************/
+.inboxCal{
+	margin:0px;
+	padding:0px auto;
+	width:20%;
+	z-index:0;
+	position: fixed;
+	background-color:black;
+}
+		/***********cal*********/
+		.calendrier{	
+			display:block;
+			height: 100%;
+			width:100%;
+		}
+		.calendar-wrapper {
+		  width: 100%;
+		  padding: 5px;
+		  border: 1px solid black;
+		  background-color: #7f8885;
+		}
+		table.tableGNR {
+		  clear: both;
+		  width: 100%;
+		  border: 1px solid black;
+		  border-radius: 3px;
+		  border-collapse: collapse;
+		  color: black;
+		}
+		td.tdGNR {
+		  height: auto;
+		  text-align: center;
+		  vertical-align: middle;
+		  border-right: 1px solid black;
+		  border-top: 1px solid black;
+		  width: 14.28571429%;
+		}
+		a.not-current {
+		  width:100%;
+		  color: #c0c0c0;
+		  text-align: center;
+		}
+		a.infToday {
+		  width:100%;
+		  font-weight: 700;
+		  color: black;
+		  text-align: center;
+		}
+		a.today {
+		  width:100%;
+		  font-weight: 700;
+		  color: black;
+		  font-size: 1.5em;
+		  text-align: center;
+		}
+		thead.thd td {
+		  border: none;
+		  color: black;
+		  text-transform: uppercase;
+		  font-size: 1.5em;
+		  text-align: center;
+		}
+		#btnPrev {
+		  float: left;
+		  margin-bottom: 20px;
+		}
+		#btnPrev:before {
+		  content: '\f104';
+		  font-family: FontAwesome;
+		  padding-right: 4px;
+		}
+		#btnNext {
+		  float: right;
+		  margin-bottom: 20px;
+		}
+		#btnNext:after {
+		  content: '\f105';
+		  font-family: FontAwesome;
+		  padding-left: 4px;
+		}
+		#btnPrev,
+		#btnNext {
+		  background: transparent;
+		  border: none;
+		  outline: none;
+		  font-size: 1em;
+		  color: black;
+		  cursor: pointer;
+		  font-family: "Roboto Condensed", sans-serif;
+		  text-transform: uppercase;
+		  -webkit-transition: all 0.3s ease;
+		  transition: all 0.3s ease;
+		}
+		#btnPrev:hover,
+		#btnNext:hover {
+		  color: black;
+		  font-weight: bold;
+		}
+		/*****************************inbox*******************************/
+			.inbox{
+				width:100%;
+				height:50%;
+				padding: 5px;
+				display:block;
+				background-color: #7f8885;
+				border-left: 1px solid black;
+			}
+			.recuDiv{
+				border-bottom:1px solid black;
+				display:table;
+			}
+			.recuH4{
+				font-family: Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				float:left;
+				color:black;
+			}
+			.recuDiv i{
+				font-size: 1.8em;
+				color: black;
+				margin-left: 90px;
+				transform: translateY(40%);
+			}
+			.mails{
+				margin:0;
+				padding:1px;
+				display:block;
+				width:100%;
+			}
+			.mail{
+				border-left: 1px solid black;
+				border-bottom: 1px solid black;
+				border-bottom-left-radius: 5px;
+				padding-left:8px;
+			}
+			.flanFlani{
+				font-family: Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				color:black;
+				margin-top: 3px;
+				margin-bottom: 8px;
+			}
+			.msg{
+				font-family: Arial, Helvetica, sans-serif;
+				color:black;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				-o-text-overflow: ellipsis;	/* required for Opera */
+			    -ms-text-overflow: ellipsis;	/* required for IE8, allegedly */
+			    -moz-binding: url('ellipsis.xml#ellipsis');
+			    display:block;
+				max-height: 2em;
+				line-height: 1em;
+				padding-left: 8px;
+				font-size: 13px;
+			}
+			.time{
+				font-family: Arial, Helvetica, sans-serif;
+				color:black;
+				font-size: 10px;
+				right: 0px;
+				margin-left: 100px;
+				margin-bottom: 0px;
+			}
